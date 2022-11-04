@@ -1,5 +1,5 @@
 ---
-Logo: image/me_256x256.jpg
+Logo: image/logoSUSM_189x179.jpg
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
