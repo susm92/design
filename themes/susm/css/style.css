@@ -2,7 +2,7 @@
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
-    padding: 0;
+    padding: 0,5;
 }
 
 ol, ul {
@@ -26,7 +26,9 @@ body {
 }
 
 .main {
+    margin: 5px auto;
     flex: 1 0 auto;
+    width: 90%;
 }
 
 .header, .footer {
@@ -43,7 +45,7 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2em 3em 3em 10px;
 }
 
 @media (max-width: 767px) {
@@ -72,10 +74,12 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: #222;
 }
 
 .footer a {
     color: #222;
+    color: white;
 }
 
 .footer .social {
@@ -144,4 +148,12 @@ blockquote {
     margin-left: 1em;
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
+}
+
+.nav li:hover {
+    background-color: pink;
+}
+
+.fa {
+    padding: 3px;
 }
