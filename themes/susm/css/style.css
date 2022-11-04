@@ -157,3 +157,32 @@ blockquote {
 .fa {
     padding: 3px;
 }
+
+/* Boxes for testingsBoxes */
+
+.black-box {
+    background-color: black;
+    width: 600px;
+    height: 100px;
+    box-sizing: content-box;
+}
+
+.blue-box {
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    box-sizing: content-box;
+}
+
+.red-box {
+    width: 50vw;
+    height: 100px;
+    background-color: red;
+    box-sizing: border-box;
+}
+
+.green-box {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
