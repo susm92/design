@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    background-color: #222;
+}
+
+.footer a {
+    color: #222;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.fab,
+.fa {
+    color: #fff;
+    padding: 3px;
+}
+
+.nav li:hover {
+    background-color: #ffc0cb;
+}
