@@ -12,6 +12,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'typography';
 @import 'testingBoxes';
 @import 'mobile-menu';
+@import 'test';
 
 body {
     background-color: $background-color;
@@ -22,7 +23,7 @@ body {
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
-    padding: 0,5;
+    padding: 0.5;
 }
 
 .hidden {
@@ -39,8 +40,8 @@ img {
 }
 
 .main {
-    margin: 5px auto;
-    flex: 1 0 auto;
+    margin: 1rem auto;
+    //flex: 1 0 auto;
     width: 90%;
     max-width: 67rem;
     padding-left: 1.5rem;

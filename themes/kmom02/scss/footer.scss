@@ -1,12 +1,14 @@
+$footer-color: #222;
+
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
-    background-color: #222;
+    border-top: 1px solid $footer-color;
+    background-color: $footer-color;
 }
 
 .footer a {
-    color: #222;
+    color: $footer-color;
     color: #fff;
     text-decoration: none;
 }

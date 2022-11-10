@@ -9,25 +9,27 @@ body {
     line-height: $base-line-height;
 }
 
-h1,
-main h1 {
+h1 {
     font-size: 3rem;
     margin-bottom: $magic-number * 2;
     font-family: 'Roboto', sans-serif;
 }
 
-h2,
-h3,
-h4,
-h5,
-.main h2,
-.main h3,
-.main h4,
-.main h5 {
+h2 {
     margin-bottom: $magic-number;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
-.main p,
+h3,
+h4 {
+    margin-bottom: $magic-number;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
 p {
     font-size: $base-font-size;
     margin-bottom: $magic-number;
