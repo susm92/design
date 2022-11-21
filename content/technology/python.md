@@ -1,5 +1,5 @@
 ---
-Title: Python
+Title: PYTHON
 Description: This is an article.
 Template: technology
 ---
