@@ -13,6 +13,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'testingBoxes';
 @import 'mobile-menu';
 @import 'test';
+@import 'report';
+@import 'technologies';
+@import 'technology';
 
 body {
     background-color: $background-color;

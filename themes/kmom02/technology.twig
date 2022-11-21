@@ -1,0 +1,26 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <article class="main" role="main">
+        <nav class="sidebar-technologies">
+            <h3>Alla teknologier</h3>
+            <ul class="sidebar-technologies-menu">
+                {% for page in pages("technology") %}
+                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <div class="article-content">
+            {{ content }}
+        </div>
+    </article>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sidebar-technologies {
+    width: 20%;
+}
+
+.article-content {
+    width: 70%;
+}
+
+.sidebar-technologies-menu {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media (max-width: 780px) {
+    .sidebar-technologies,
+    .sidebar-technologies-menu {
+        display: none;
+
+    }
+
+    .article-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 98%;
+    }
+}

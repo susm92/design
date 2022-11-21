@@ -1,0 +1,78 @@
+/* report.scss */
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.tech-nr-1 {
+    grid-column: span 1;
+}
+
+.tech-nr-2 {
+    grid-column: span 2;
+}
+
+.tech-nr-3 {
+    grid-column: span 2;
+}
+
+.tech-nr-4 {
+    grid-column: span 1;
+}
+
+.tech-nr-5 {
+    grid-column: span 3;
+}
+
+.tech-nr-6 {
+    grid-column: span 1;
+}
+
+.tech-nr-7 {
+    grid-column: span 2;
+}
+
+@media (max-width: 780px) {
+    .landingpage {
+        display: grid;
+        gap: 1em 1em;
+    }
+    
+    .landingpage h1 {
+        grid-column: span 1;
+        justify-self: center;
+    }
+
+    .tech-nr-1 {
+        grid-column: span 1;
+    }
+    
+    .tech-nr-2 {
+        grid-column: span 1;
+    }
+    
+    .tech-nr-3 {
+        grid-column: span 1;
+    }
+    
+    .tech-nr-4 {
+        grid-column: span 1;
+    }
+    
+    .tech-nr-5 {
+        grid-column: span 1;
+    }
+    
+    .tech-nr-6 {
+        grid-column: span 1;
+    }
+    
+    .tech-nr-7 {
+        grid-column: span 1;
+    }
+}
