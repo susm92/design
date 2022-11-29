@@ -9,4 +9,10 @@ Social:
     - title: Link till Google vid assistans.
       url: https://www.google.se/
       icon: fa fa-hospital
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---

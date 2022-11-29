@@ -1,7 +1,12 @@
-.main {
+.main_sidebar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .sidebar-technologies {
