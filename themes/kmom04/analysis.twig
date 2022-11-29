@@ -5,9 +5,9 @@
 
     <article class="main-sidebar" role="main">
         <nav class="sidebar-technologies">
-            <h3>Alla teknologier</h3>
+            <h3>Samtliga rapporter/ Analyser</h3>
             <ul class="sidebar-technologies-menu">
-                {% for page in pages("technology") %}
+                {% for page in pages("analysis") %}
                     <li{% if page.id==current_page.id %} class="active" {% endif %}>
                         <a href="{{ page.url }}">{{ page.title }}</a>
                     </li>

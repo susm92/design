@@ -1,0 +1,67 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import 'footer';
+@import 'header';
+@import 'typography';
+@import 'testingBoxes';
+@import 'mobile-menu';
+@import 'test';
+@import 'report';
+@import 'technologies';
+@import 'technology';
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0.5;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main {
+    margin: 1rem auto;
+    //flex: 1 0 auto;
+    width: 90%;
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}

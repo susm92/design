@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $footer-background-color;
+    background-color: $footer-background-color;
+}
+
+.footer a {
+    color: $footer-background-color;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.fab,
+.fa,
+.fas {
+    color: $footer-icon-color;
+    padding: 3px;
+}

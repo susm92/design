@@ -1,0 +1,18 @@
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: $header-background-color;
+}
+
+.title,
+.logo {
+    padding: 2em 3em 3em 10px;
+}
+
+.nav li:hover {
+    background-color: $header-hoover-color;
+}

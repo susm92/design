@@ -11,7 +11,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 if (isset($_GET["action"])) {
     if ($_GET["action"] == "theme") {
-        $previousValue = isset($_SESSION) ? $_SESSION["theme"] : null;
+        $previousValue = isset($_SESSION["theme"]) ? $_SESSION["theme"] : null;
 
         if ($previousValue == "dark") {
             unset($_SESSION["theme"]);
@@ -26,7 +26,7 @@ if (isset($_GET["action"])) {
 
     if ($_GET["action"] == "session_destroy") {
         session_destroy();
-        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_POST"] . $_SERVER["PHP_SELF"];
+        $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
         $url = preg_replace("/index.php\//", "", $url);
         header("Location: $url");
     }
