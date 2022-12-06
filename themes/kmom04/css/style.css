@@ -6499,6 +6499,10 @@ readers do not read off random characters that represent icons */
   background-color: #f5f49f;
 }
 
+#toggler {
+  color: #f5f49f;
+}
+
 html {
   font-size: 100%;
 }
@@ -6766,6 +6770,51 @@ p {
     width: 98%;
   }
 }
+/* report.scss */
+.gallery-landingpage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 10px;
+}
+
+.photobox10 {
+  order: 10;
+}
+
+.photobox20 {
+  order: 20;
+}
+
+.photobox30 {
+  order: 30;
+}
+
+.photobox40 {
+  order: 40;
+}
+
+.photobox50 {
+  order: 50;
+}
+
+.photobox60 {
+  order: 60;
+}
+
+.photobox70 {
+  order: 70;
+}
+
+.photobox80 {
+  order: 80;
+}
+
+.photobox90 {
+  order: 90;
+}
+
 body {
   background-color: #f5d0d0;
 }

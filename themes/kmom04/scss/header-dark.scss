@@ -16,3 +16,11 @@
 .nav li:hover {
     background-color: $header-hoover-color;
 }
+
+@media (max-width: 767px) {
+    .nav-toggle {
+        i {
+            color: $footer-background-color;
+        }
+    }
+}
