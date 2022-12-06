@@ -6668,48 +6668,62 @@ p {
 /* report.scss */
 .landingpage {
   display: grid;
-  gap: 1em 1em;
+  grid-template-columns: 30% 30% auto;
+  grid-template-rows: 200px 200px 200px 200px;
+  gap: 2em;
 }
 
-.landingpage h1 {
+.course-box {
+  border: 1px solid #ccc;
+  padding: 2em;
+}
+
+.landingpage h3 {
   grid-column: span 3;
   justify-self: center;
 }
 
 .tech-nr-1 {
-  grid-column: span 1;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .tech-nr-2 {
-  grid-column: span 2;
+  grid-column: 2/4;
+  grid-row: 1/2;
 }
 
 .tech-nr-3 {
-  grid-column: span 2;
+  grid-row: 2/2;
+  grid-column: 1/3;
 }
 
 .tech-nr-4 {
-  grid-column: span 1;
+  grid-row: 2/3;
+  grid-column: 3/3;
 }
 
 .tech-nr-5 {
-  grid-column: span 3;
+  grid-row: 3/3;
+  grid-column: 1/4;
 }
 
 .tech-nr-6 {
-  grid-column: span 1;
+  grid-row: 4/4;
+  grid-column: 1/2;
 }
 
 .tech-nr-7 {
-  grid-column: span 2;
+  grid-row: 4/4;
+  grid-column: 2/4;
 }
 
 @media (max-width: 780px) {
   .landingpage {
-    display: grid;
+    display: none;
     gap: 1em 1em;
   }
-  .landingpage h1 {
+  .landingpage h3 {
     grid-column: span 1;
     justify-self: center;
   }
@@ -6717,22 +6731,22 @@ p {
     grid-column: span 1;
   }
   .tech-nr-2 {
-    grid-column: span 1;
+    grid-column: span 2;
   }
   .tech-nr-3 {
-    grid-column: span 1;
+    grid-column: span 2;
   }
   .tech-nr-4 {
     grid-column: span 1;
   }
   .tech-nr-5 {
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .tech-nr-6 {
     grid-column: span 1;
   }
   .tech-nr-7 {
-    grid-column: span 1;
+    grid-column: span 2;
   }
 }
 .main-sidebar {
