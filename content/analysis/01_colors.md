@@ -3,9 +3,7 @@ Title: Colors
 Description: This is an analysis of colors.
 Template: analysis
 ---
-
-Jämförelse av färg på hemsidor och dess innebörd
-=======================
+# Jämförelse av färg på hemsidor och dess innebörd
 
 Vi skall i denna korta rapport analysera 3 webbplatser, det vi kommer titta efter är vilka färger som använts och hur detta då upplevs för besökaren.
 
@@ -23,7 +21,7 @@ Anledningen till varför jag valde just dessa hemsidorna är för att de daglige
 Metod
 -----------------------
 
-Vi använder oss av tillägget Colorzilla som finns i Firefox för att analysera vilka färger som används på webbplatserna, vi kommer även använda oss av insektör verktyget i webbläsaren.
+Vi använder oss av tillägget Colorzilla som finns i Firefox för att analysera vilka färger som används på webbplatserna, vi kommer även använda oss av insektör verktyget i webbläsaren (webbläsaren som använts är Mozilla Firefox).
 
 Resultat
 -----------------------

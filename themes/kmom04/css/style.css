@@ -6499,10 +6499,11 @@ readers do not read off random characters that represent icons */
   background-color: #f5f49f;
 }
 
-#toggler {
-  color: #f5f49f;
+@media (max-width: 767px) {
+  .nav-toggle i {
+    color: #f5f49f;
+  }
 }
-
 html {
   font-size: 100%;
 }
@@ -6771,7 +6772,7 @@ p {
   }
 }
 /* report.scss */
-.gallery-landingpage {
+.gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6813,6 +6814,24 @@ p {
 
 .photobox90 {
   order: 90;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body {

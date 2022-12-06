@@ -6501,10 +6501,11 @@ readers do not read off random characters that represent icons */
   background-color: #04494f;
 }
 
-#toggler {
-  color: #034538;
+@media (max-width: 767px) {
+  .nav-toggle i {
+    color: #034538;
+  }
 }
-
 html {
   font-size: 100%;
 }
