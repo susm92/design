@@ -7,8 +7,8 @@
 }
 
 .course-box {
-    border: 1px solid #ccc;
-    padding: 2em;;
+    border: 0.15em solid;
+    padding: 2em;
 }
 
 .landingpage h3 {
@@ -22,7 +22,7 @@
 }
 
 .tech-nr-2 {
-    grid-column: 2/4;
+    grid-column: 2 / 4;
     grid-row: 1 / 2;
 }
 
