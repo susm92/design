@@ -4,6 +4,10 @@ Description: This is my technologies page.
 Template: technologies
 ---
 
+<div class="course-box headline">
+    <h2>TEKNOLOGIER<h2>
+</div>
+
 <div class="course-box tech-nr-1">
     <a href="%base_url%/technology/css">CSS</a>
 </div>
