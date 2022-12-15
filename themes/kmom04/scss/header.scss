@@ -8,7 +8,22 @@
 .title,
 .logo {
     padding: 2em 3em 3em 10px;
-    color: $font-color;
+}
+
+.site-header > .title {
+    h1,
+    a,
+    p {
+        color: $font-color-header;
+    }
+}
+
+.header > .nav {
+    h1,
+    a,
+    p {
+        color: $font-color-header;
+    }
 }
 
 .nav li:hover {
@@ -18,7 +33,7 @@
 @media (max-width: 767px) {
     .nav-toggle {
         i {
-            color: $footer-color;
+            color: $font-color-header;
         }
     }
 }

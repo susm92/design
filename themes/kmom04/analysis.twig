@@ -5,7 +5,7 @@
 
     <article class="main-sidebar" role="main">
         <nav class="sidebar-technologies">
-            <h3>Samtliga rapporter/ Analyser</h3>
+            <p><strong>Samtliga rapporter/ Analyser</strong></p>
             <ul class="sidebar-technologies-menu">
                 {% for page in pages("analysis") %}
                     <li{% if page.id==current_page.id %} class="active" {% endif %}>
