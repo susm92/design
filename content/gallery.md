@@ -89,5 +89,5 @@ Template: gallery
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/WgvTgV5EoGY" frameborder="0" allowfullscreen></iframe>
+    <iframe title="southPark wow" src="https://www.youtube.com/embed/WgvTgV5EoGY" frameborder="0" allowfullscreen></iframe>
 </div>
